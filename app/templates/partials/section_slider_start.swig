@@ -10,17 +10,24 @@
 
                         <div class="col_half">
                             <div class="heading-block topmargin-custom-slider">
-                                <h4 class=" nobottommargin">From Ideas to products</h4>
-                                <h1>Der Erste und Einzige</h1>
+                                <h4 class="hidden-xs nobottommargin">From Ideas to products</h4>
+                                <h1 class="hidden-xs">Der Erste und Einzige</h1>
                                 <h4>Desinfektionsmittel- <br> und Flüssigseifenspender</h4>
                             </div>                         
                         </div>
 
                         <div class="col_half hidden-xs col_last">
-                            <img src="/assets_build/startseite/slider_1-euraneg-Seifenspender-Produkte-Automatik-Manuell.png" 
+                            {{image_50(
+                                './assets_build/startseite/slider_1-euraneg-Seifenspender-Produkte-Automatik-Manuell.png',
+                                'euraneg-Manueller-Seifenspender-SD2005-SD2010',
+                                'center-block',
+                                'data-animate="pulse"'
+
+                            ) }}
+                            {# <img src="/assets_build/startseite/slider_1-euraneg-Seifenspender-Produkte-Automatik-Manuell.png" 
                                 alt="euraneg-Manueller-Seifenspender-SD2005-SD2010" 
                                 class="center-block" 
-                                data-animate="pulse">
+                                data-animate="pulse"> #}
                         </div>
 
                     </div>

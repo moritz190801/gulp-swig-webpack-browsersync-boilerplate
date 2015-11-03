@@ -33,7 +33,12 @@
             <div class="col_one_third nobottommargin">
                 <div class="feature-box media-box">
                     <div class="fbox-media">
-                        <img src="images/services/1.jpg" alt="Why choose Us?">
+                        {{image_33(
+                            './assets_build/produktseite_1_SD2005_SD2010/FotoliaComp_92533709_Vorteile.jpg',
+                            'VORTEILE - Manuelle Desinfektionsmittelspender',
+                            '',
+                            ''
+                        ) }}
                     </div>
                     <div class="fbox-desc">
                         <h3>Vorteile<span class="subtitle">Manuelle Desinfektionsmittelspender</span></h3>
@@ -45,7 +50,12 @@
             <div class="col_one_third nobottommargin">
                 <div class="feature-box media-box">
                     <div class="fbox-media">
-                        <img src="images/services/2.jpg" alt="Why choose Us?">
+                        {{image_33(
+                            './assets_build/produktseite_1_SD2005_SD2010/FotoliaComp_48220285_Funktion.jpg',
+                            'funktion - Manuelle Desinfektionsmittelspender',
+                            '',
+                            ''
+                        ) }}
                     </div>
                     <div class="fbox-desc">
                         <h3>funktion<span class="subtitle">Manuelle Desinfektionsmittelspender</span></h3>
@@ -57,7 +67,12 @@
             <div class="col_one_third nobottommargin col_last">
                 <div class="feature-box media-box">
                     <div class="fbox-media">
-                        <img src="images/services/3.jpg" alt="Why choose Us?">
+                        {{image_33(
+                            './assets_build/produktseite_1_SD2005_SD2010/FotoliaComp_91502133_Einsatzorte.jpg',
+                            'einsatzorte - Manuelle Desinfektionsmittelspender',
+                            '',
+                            ''
+                        ) }}
                     </div>
                     <div class="fbox-desc">
                         <h3>einsatzorte<span class="subtitle">Manuelle Desinfektionsmittelspender</span></h3>
@@ -100,29 +115,68 @@
                 <div class="col_one_third ">
 
                     <div class="feature-box fbox-plain fbox-euraneg">
+                        <div class="fbox-icon"></div>
+                        <a href="/assets_build/produktseite_1_SD2005_SD2010/step_1-SD2005-Manueller-Desinfektionsmittelspender-Frontdeckel.png" data-lightbox="image">
+                            {{image_featureBox(
+                                './assets_build/produktseite_1_SD2005_SD2010/step_1-SD2005-Manueller-Desinfektionsmittelspender-Frontdeckel.png',
+                                'einsatzorte - Manuelle Desinfektionsmittelspender',
+                                '',
+                                'data-animate="fadeInUp"'
+                            ) }}
+                        </a>
+                    </div>
+                    <div class="feature-box fbox-plain fbox-euraneg">
                         <div class="fbox-icon">
                             <a href="#"><i class="i-alt">1.</i></a>
                         </div>
+                        
                         <h3>Wandmontageplatte</h3>
                         <p>Perferendis, nam. Eum aperiam vel animi beatae corporis dignissimos, molestias, placeat, maxime optio ipsam nostrum atque quidem.</p>
                     </div>
 
                 </div>
 
+
+
                 <div class="col_one_third ">
 
+                    <div class="feature-box fbox-plain fbox-euraneg">
+                        <div class="fbox-icon"></div>
+                        <a href="/assets_build/produktseite_1_SD2005_SD2010/step_2-SD2005-Manueller-Desinfektionsmittelspender-Gehaeuse.png" data-lightbox="image">
+                            {{image_featureBox(
+                                './assets_build/produktseite_1_SD2005_SD2010/step_2-SD2005-Manueller-Desinfektionsmittelspender-Gehaeuse.png',
+                                'einsatzorte - Manuelle Desinfektionsmittelspender',
+                                '',
+                                'data-animate="fadeInUp" data-delay="300"'
+                            ) }}
+                        </a>
+                    </div>
                     <div class="feature-box fbox-plain fbox-euraneg">
                         <div class="fbox-icon">
                             <a href="#"><i class="i-alt">2.</i></a>
                         </div>
+
                         <h3>gehäuse</h3>
                         <p>Saepe qui enim at animi. Repellendus, blanditiis doloremque asperiores reprehenderit deleniti. Ipsam nam accusantium ex!</p>
                     </div>
 
                 </div>
 
-                <div class="col_one_third  col_last">
 
+
+                <div class="col_one_third  col_last">
+                    
+                    <div class="feature-box fbox-plain fbox-euraneg">
+                        <div class="fbox-icon"></div>
+                        <a href="/assets_build/produktseite_1_SD2005_SD2010/step_1-SD2005-Manueller-Desinfektionsmittelspender-Frontdeckel.png" data-lightbox="image">
+                            {{image_featureBox(
+                                './assets_build/produktseite_1_SD2005_SD2010/step_1-SD2005-Manueller-Desinfektionsmittelspender-Frontdeckel.png',
+                                'einsatzorte - Manuelle Desinfektionsmittelspender',
+                                '',
+                                'data-animate="fadeInUp" data-delay="600"'
+                            ) }}
+                        </a>
+                    </div>
                     <div class="feature-box fbox-plain fbox-euraneg">
                         <div class="fbox-icon">
                             <a href="#"><i class="i-alt">3.</i></a>
@@ -133,8 +187,21 @@
 
                 </div>
 
-                <div class="col_one_third ">
 
+
+                <div class="col_one_third ">
+                    
+                    <div class="feature-box fbox-plain fbox-euraneg">
+                        <div class="fbox-icon"></div>
+                        <a href="/assets_build/produktseite_1_SD2005_SD2010/step_4-SD2005-Manueller-Desinfektionsmittelspender-Tropfschale.png" data-lightbox="image">
+                            {{image_featureBox(
+                                './assets_build/produktseite_1_SD2005_SD2010/step_4-SD2005-Manueller-Desinfektionsmittelspender-Tropfschale.png',
+                                'einsatzorte - Manuelle Desinfektionsmittelspender',
+                                '',
+                                'data-animate="fadeInUp" data-delay="100"'
+                            ) }}
+                        </a>
+                    </div>
                     <div class="feature-box fbox-plain fbox-euraneg">
                         <div class="fbox-icon">
                             <a href="#"><i class="i-alt">4.</i></a>
@@ -145,8 +212,21 @@
 
                 </div>
 
+
+
                 <div class="col_one_third ">
 
+                    <div class="feature-box fbox-plain fbox-euraneg">
+                        <div class="fbox-icon"></div>
+                        <a href="/assets_build/produktseite_1_SD2005_SD2010/step_5-SD2005-Manueller-Desinfektionsmittelspender-Pumpe.png" data-lightbox="image">
+                            {{image_featureBox(
+                                './assets_build/produktseite_1_SD2005_SD2010/step_5-SD2005-Manueller-Desinfektionsmittelspender-Pumpe.png',
+                                'einsatzorte - Manuelle Desinfektionsmittelspender',
+                                '',
+                                'data-animate="fadeInUp" data-delay="400"'
+                            ) }}
+                        </a>
+                    </div>
                     <div class="feature-box fbox-plain fbox-euraneg">
                         <div class="fbox-icon">
                             <a href="#"><i class="i-alt">5.</i></a>
@@ -158,7 +238,18 @@
                 </div>
 
                 <div class="col_one_third  col_last">
-
+                    
+                    <div class="feature-box fbox-plain fbox-euraneg">
+                        <div class="fbox-icon"></div>
+                        <a href="/assets_build/produktseite_1_SD2005_SD2010/step_1-SD2005-Manueller-Desinfektionsmittelspender-Frontdeckel.png" data-lightbox="image">
+                            {{image_featureBox(
+                                './assets_build/produktseite_1_SD2005_SD2010/step_1-SD2005-Manueller-Desinfektionsmittelspender-Frontdeckel.png',
+                                'einsatzorte - Manuelle Desinfektionsmittelspender',
+                                '',
+                                'data-animate="fadeInUp" data-delay="700"'
+                            ) }}
+                        </a>
+                    </div>
                     <div class="feature-box fbox-plain fbox-euraneg">
                         <div class="fbox-icon">
                             <a href="#"><i class="i-alt">6.</i></a>
@@ -184,17 +275,11 @@
             <div class="container clearfix">
 
                 <div class="col_half nobottommargin topmargin-lg ">
-                    <img src="./assets_build/test.jpg;200w" alt="">
-                    
-                    {{image50(
+                    {{image_50(
                         './assets_build/produktseite_1_SD2005_SD2010/2.5-euraneg-Manueller-Seifenspender-SD2005-SD2010.png',
                         'euraneg-Manueller-Seifenspender-SD2005-SD2010',
                         'center-block'
-                    ) }}
-                    <img src="./assets_build/produktseite_1_SD2005_SD2010/2.5-euraneg-Manueller-Seifenspender-SD2005-SD2010.png;300w" 
-                        alt="euraneg-Manueller-Seifenspender-SD2005-SD2010" class="center-block">
-
-                    
+                    ) }}                    
                 </div>
 
                 <div class="col_half nobottommargin topmargin-lg col_last">

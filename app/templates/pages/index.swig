@@ -37,9 +37,15 @@
             <div class="container clearfix">
                 
                 <div class="col_half nobottommargin topmargin-lg ">
-                    <img src="/assets_build/startseite/1.3-euraneg-Manueller-Seifenspender-SD2005-SD2010.png" 
+                    {{image_50(
+                        './assets_build/startseite/1.3-euraneg-Manueller-Seifenspender-SD2005-SD2010.png',
+                        'euraneg-Manueller-Seifenspender-SD2005-SD2010',
+                        'center-block',
+                        ''
+                    ) }}
+                    {# <img src="/assets_build/startseite/1.3-euraneg-Manueller-Seifenspender-SD2005-SD2010.png" 
                         alt="euraneg-Manueller-Seifenspender-SD2005-SD2010" class="center-block" 
-                        data-animate="fadeIn">
+                        data-animate="fadeIn"> #}
                 </div>
 
                 <div class="col_half nobottommargin topmargin-lg col_last">
@@ -75,10 +81,16 @@
                 </div>
 
                 <div class="col_half nobottommargin topmargin-lg col_last">
+                    {{image_50(
+                        './assets_build/startseite/1.4-euraneg-Automatischer-touchless-Seifenspender-SD4005-SD4010.png',
+                        'euraneg-Automatischer-touchless-Seifenspender-SD4005-SD4010',
+                        'center-block',
+                        ''
 
-                    <img src="/assets_build/startseite/1.4-euraneg-Automatischer-touchless-Seifenspender-SD4005-SD4010.png" 
+                    ) }}
+                    {# <img src="/assets_build/startseite/1.4-euraneg-Automatischer-touchless-Seifenspender-SD4005-SD4010.png" 
                         alt="euraneg-Automatischer-touchless-Seifenspender-SD4005-SD4010" class="center-block" 
-                        data-animate="fadeIn">
+                        data-animate="fadeIn"> #}
 
                 </div>
 
@@ -90,9 +102,16 @@
             <div class="container clearfix">
                 
                 <div class="col_half nobottommargin topmargin-lg">
-                    <img src="/assets_build/startseite/1.5-euraneg-Automatischer-touchless-MINI-Seifenspender-SD4005-SD4010.png" 
+                    {{image_50(
+                        './assets_build/startseite/1.5-euraneg-Automatischer-touchless-MINI-Seifenspender-SD4005-SD4010.png',
+                        'euraneg-Manueller-Seifenspender-SD2005-SD2010',
+                        'center-block',
+                        ''
+
+                    ) }}
+                    {# <img src="/assets_build/startseite/1.5-euraneg-Automatischer-touchless-MINI-Seifenspender-SD4005-SD4010.png" 
                         alt="euraneg-Manueller-Seifenspender-SD2005-SD2010" class="center-block"
-                        data-animate="fadeIn">
+                        data-animate="fadeIn"> #}
                 </div>
 
                 <div class="col_half nobottommargin topmargin-lg col_last">
