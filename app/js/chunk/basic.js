@@ -41,10 +41,3 @@ window.console = window.console || (function(){
 
 
 
-
-
-
-
-
-
-

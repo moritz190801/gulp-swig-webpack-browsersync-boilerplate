@@ -113,7 +113,7 @@
 
 			<div class="menu-wrapper">
 				<div class="logo">
-					<a href="/">{% include '../partials/KERALOCK-Logo.svg' %}</a>
+					<a href="/">{% include '../partials/logo_home.svg' %}</a>
 				</div>
 				<div class="item-nav" data-kat="inspiration">
 					<div class="center-wrapper sound-roll1">
@@ -228,7 +228,7 @@
         </div> #}
         <div class="nav-home">
 			<div class="logo">
-				{% include '../partials/KERALOCK-Logo.svg' %}
+				{% include '../partials/logo_home.svg' %}
 			</div>
 			<div class="skip">
 				<a href="#anchor-inspiration" class="anchor-link">
@@ -245,109 +245,39 @@
 
 
 
-<section id="anchor-inspiration" class="image-bg bg-dark overlay pt160 pb160 .pt-sm-96 .pb-sm-96 pt-xs-48 pb-xs-48 -small">
-	<a href="inspiration.html" >
-	    <div class="background-image-holder srcset INSPIRATION-02-Haarfarben">
-	        <img
-	            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-	            data-srcset="
-	                ./assets_build/home-mobile/KL-Keyvisual-INSPIRATION.jpg;320w 320w,
-	                ./assets_build/home-mobile/KL-Keyvisual-INSPIRATION.jpg;600w 600w,
-	                ./assets_build/home-mobile/KL-Keyvisual-INSPIRATION.jpg;800w 800w,
-	                ./assets_build/home-mobile/KL-Keyvisual-INSPIRATION.jpg;1000w 1000w" 
-	            data-sizes="100vw"
-	            class=""
-	            alt="">
-	    </div>
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-sm-12 ">
-	            	<h6 class="uppercase mb0">Haarfarben</h6>
-	                <h2 class="uppercase mb8">INSPIRATION</h2>
-	            </div>
-	        </div>
-	        <!--end of row-->
-	    </div>
-    </a>
-</section>
 
-<section class="image-bg bg-dark overlay pt160 pb160 .pt-sm-96 .pb-sm-96 pt-xs-48 pb-xs-48 -small">
-	<a href="inspiration.html">
-	    <div class="background-image-holder srcset INSPIRATION-02-Haarfarben">
-	        <img
-	            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-	            data-srcset="
-	                ./assets_build/home-mobile/KL-Keyvisual-DELUXE.jpg;320w 320w,
-	                ./assets_build/home-mobile/KL-Keyvisual-DELUXE.jpg;600w 600w,
-	                ./assets_build/home-mobile/KL-Keyvisual-DELUXE.jpg;800w 800w,
-	                ./assets_build/home-mobile/KL-Keyvisual-DELUXE.jpg;1000w 1000w" 
-	            data-sizes="100vw"
-	            class=""
-	            alt="">
-	    </div>
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-sm-12 ">
-	            	<h6 class="uppercase mb0">Dauerwelle</h6>
-	                <h2 class="uppercase mb8">DE LUXE</h2>
-	            </div>
-	        </div>
-	        <!--end of row-->
-	    </div>
-    </a>
-</section>
+{# category(img, url, h6, h2, id) #}
+{{ categoryHome(
+    './assets_build/home-mobile/KL-Keyvisual-INSPIRATION.jpg',
+    'inspiration.html',
+    'Haarfarben',
+    'INSPIRATION',
+    'anchor-inspiration'
+) }}
 
-<section class="image-bg bg-dark overlay pt160 pb160 .pt-sm-96 .pb-sm-96 pt-xs-48 pb-xs-48 -small">
-	<a href="inspiration.html">
-	    <div class="background-image-holder srcset INSPIRATION-02-Haarfarben">
-	        <img
-	            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-	            data-srcset="
-	                ./assets_build/home-mobile/KL-Keyvisual-NIGHT.jpg;320w 320w,
-	                ./assets_build/home-mobile/KL-Keyvisual-NIGHT.jpg;600w 600w,
-	                ./assets_build/home-mobile/KL-Keyvisual-NIGHT.jpg;800w 800w,
-	                ./assets_build/home-mobile/KL-Keyvisual-NIGHT.jpg;1000w 1000w" 
-	            data-sizes="100vw"
-	            class=""
-	            alt="">
-	    </div>
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-sm-12 ">
-	            	<h6 class="uppercase mb0">Color Hairsprays</h6>
-	                <h2 class="uppercase mb8">NIGHT LIFE</h2>
-	            </div>
-	        </div>
-	        <!--end of row-->
-	    </div>
-    </a>
-</section>
+{{ categoryHome(
+    './assets_build/home-mobile/KL-Keyvisual-DELUXE.jpg',
+    'deluxe.html',
+    'Dauerwelle',
+    'DE LUXE'
+) }}
 
-<section class="image-bg bg-dark overlay pt160 pb160 .pt-sm-96 .pb-sm-96 pt-xs-48 pb-xs-48 -small">
-	<a href="inspiration.html">
-	    <div class="background-image-holder srcset INSPIRATION-02-Haarfarben">
-	        <img
-	            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-	            data-srcset="
-	                ./assets_build/home-mobile/KL-Keyvisual-CARE.jpg;320w 320w,
-	                ./assets_build/home-mobile/KL-Keyvisual-CARE.jpg;600w 600w,
-	                ./assets_build/home-mobile/KL-Keyvisual-CARE.jpg;800w 800w,
-	                ./assets_build/home-mobile/KL-Keyvisual-CARE.jpg;1000w 1000w" 
-	            data-sizes="100vw"
-	            class=""
-	            alt="">
-	    </div>
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-sm-12 ">
-	            	<h6 class="uppercase mb0">HaarfFoamshampoosarben</h6>
-	                <h2 class="uppercase mb8">Care</h2>
-	            </div>
-	        </div>
-	        <!--end of row-->
-	    </div>
-    </a>
-</section>
+{{ categoryHome(
+    './assets_build/home-mobile/KL-Keyvisual-NIGHT.jpg',
+    'night-life.html',
+    'Color Hairsprays',
+    'NIGHT LIFE'
+) }}
+
+
+{{ categoryHome(
+    './assets_build/home-mobile/KL-Keyvisual-CARE.jpg',
+    'care.html',
+    'HaarfFoamshampoosarben',
+    'Care'
+) }}
+
+
 
 
 {% endblock %}

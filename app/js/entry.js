@@ -17,11 +17,13 @@ require("jquery");
 
 
 $( document ).ready(function() {
+	require("./chunk/basic.js");
+	
 	require("./libraries/bootstrap.min.js");
 	require("./libraries/flexslider.min.js");
 
 	require("./libraries/parallax.js");
-	require("./chunk/basic.js");
+	
 	require("./chunk/scripts.js");
 	require("./chunk/nav.js");
 	require("./chunk/products.js");

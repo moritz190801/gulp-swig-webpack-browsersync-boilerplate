@@ -2,6 +2,7 @@
 	$transitionWidth: 20vw;
 
 	.image {
+		padding: 0;
 		overflow: hidden;
 		background-color: #444;
 	}
@@ -12,14 +13,17 @@
 	    height: 100%;
 	    width: $transitionWidth;
 		
-		padding: 10px;
+		// padding: 10px;
 	    background-color: white;
 
 	    img {
 		    min-width: initial;
 		    min-height: initial;
-		    width: 100%;
-		    height: auto;
+		    max-width: 100%;
+		    max-height: 100%;
+		    
+		    // width: 100%;
+		    // height: auto;
 		   
 	    }
 	}
@@ -30,10 +34,50 @@
 
 
 
+
+
+
+
+
+
 	/*
-	 * animation
+	 * animation bg
 	 */
-	.background-image-holder,
+	.background-image-holder {
+		will-change: transform, opacity;
+		transition: all 0.3s ease-in-out;
+	}
+
+
+
+	// hover state
+	&.-image-square-effect.-is-hover {
+
+		&.left {
+			.background-image-holder {
+				transform: translate(-$transitionWidth,0);
+				
+
+				// animation: open .5s ease-in-out;
+				// animation-fill-mode: forwards;
+				// // animation-iteration-count: 1;
+			}
+		} 
+		&.right {
+
+			.background-image-holder {
+				transform: translate($transitionWidth,0);
+			}
+		}
+	}
+
+
+
+
+
+	/*
+	 * animation img
+	 */
 	.img_hover {
 		will-change: transform, opacity;
 		transition: all 0.3s ease-in-out;
@@ -49,13 +93,13 @@
 	&.left {
 		.img_hover {
 			right: 0;
-			transform: translate3D( $transitionWidth - 10vw,0,0) scale(.8);
+			transform: translate( $transitionWidth - 10vw,0) scale(.8);
 		}
 	}
 	&.right {
 		.img_hover {
 			left: 0;
-			transform: translate3D(-$transitionWidth + 10vw,0,0) scale(.8);
+			transform: translate(-$transitionWidth + 10vw,0) scale(.8);
 		}
 	}
 
@@ -67,30 +111,20 @@
 		&.right {
 			.img_hover {
 				opacity: 1;
-			}
-			.img_hover {
-				transform: translate3D(0,0,0) scale(1.02);
-			}
-		}
-		&.left {
-			// .img_hover {
-			// 	transform: translate3D(0,0,0) scale(1.1);
-			// }
-			.background-image-holder {
-				transform: translate3D(-$transitionWidth,0,0);
-				// animation: open .5s ease-in-out;
-				// animation-fill-mode: forwards;
-				// // animation-iteration-count: 1;
-			}
-		} 
-		&.right {
-			// .img_hover {
-			// 	transform: translate3D(0,0,0) scale(1.1);
-			// }
-			.background-image-holder {
-				transform: translate3D($transitionWidth,0,0);
+				transform: translate(0,0) scale(1);
 			}
 		}
 	}
 
+
+
 }
+
+
+
+
+/* fix vertical center position */
+.lt-ie10 .image-square .content {
+	transform: translate(0, -50%);
+}
+

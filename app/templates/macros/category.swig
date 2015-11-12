@@ -1,18 +1,28 @@
 {% macro category(img, h2, p, href, hrefText) %}
 <section class="image-bg bg-dark parallax overlay pt160 pb160 pt-xs-40 pb-xs-40">
-    <div class="background-image-holder srcset INSPIRATION-02-Haarfarben">
-        <img
-            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-            data-srcset="
-                {{ img }};320w 320w,
-                {{ img }};600w 600w,
-                {{ img }};800w 800w,
-                {{ img }};1200w 1200w,
-                {{ img }};1600w 1600w,
-                {{ img }};2000w 2000w," 
-            data-sizes="100vw"
-            class="lazyload"
-            alt="">
+
+    <div class="background-image-holder" data-image-url="{{ img }}">
+        <style scoped>
+
+            [data-image-url="{{ img }}"]{ background-image:url({{ img }};320w) }
+
+            @media (min-width:320px){
+                [data-image-url="{{ img }}"]{ background-image:url({{ img }};600w) }
+            }
+            @media (min-width:600px){
+                [data-image-url="{{ img }}"]{ background-image:url({{ img }};800w) }
+            }
+            @media (min-width:800px){
+                [data-image-url="{{ img }}"]{ background-image:url({{ img }};1200w) }
+            }
+            @media (min-width:1200px){
+                [data-image-url="{{ img }}"]{ background-image:url({{ img }};1600w) }
+            }
+            @media (min-width:1600px){
+                [data-image-url="{{ img }}"]{ background-image:url({{ img }};2000w) }
+            }
+        </style>
+        
     </div>
     <div class="container">
         <div class="row">
@@ -25,5 +35,52 @@
         <!--end of row-->
     </div>
     <!--end of container-->
+</section>
+{% endmacro %}
+
+
+
+
+
+
+{% macro categoryHome(img, url, h6, h2, id) %}
+<section  {% if id %}id="{{id|safe}}"{% endif %}
+    class="image-bg bg-dark overlay pt160 pb160 .pt-sm-96 .pb-sm-96 pt-xs-48 pb-xs-48 -small">
+    
+    <a href="{{ url|safe }}">
+        <div class="background-image-holder" data-image-url="{{ img }}">
+            <style scoped>
+
+                [data-image-url="{{ img }}"]{ background-image:url({{ img }};320w) }
+
+                @media (min-width:320px){
+                    [data-image-url="{{ img }}"]{ background-image:url({{ img }};600w) }
+                }
+                @media (min-width:600px){
+                    [data-image-url="{{ img }}"]{ background-image:url({{ img }};800w) }
+                }
+                @media (min-width:800px){
+                    [data-image-url="{{ img }}"]{ background-image:url({{ img }};1200w) }
+                }
+                @media (min-width:1200px){
+                    [data-image-url="{{ img }}"]{ background-image:url({{ img }};1600w) }
+                }
+                @media (min-width:1600px){
+                    [data-image-url="{{ img }}"]{ background-image:url({{ img }};2000w) }
+                }
+            </style>
+            
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 ">
+                    <h6 class="uppercase mb0">{{ h6|safe }}</h6>
+                    <h2 class="uppercase mb8">{{ h2|safe }}</h2>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </a>
 </section>
 {% endmacro %}

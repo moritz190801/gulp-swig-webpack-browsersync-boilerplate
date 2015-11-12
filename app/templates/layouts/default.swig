@@ -1,15 +1,21 @@
 {% include "../macros/_imports.swig" %}
 
 <!doctype html>
-<html lang="en" class="no-js">
+<!--[if lt IE 7]>      <html lang="de" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="de" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="de" class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="de" class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="de" class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>{% block pagetitle %}Keralock{% endblock %} </title>
         <meta name="description" content="{% block description %}{% endblock %}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="robots" content="index,follow">
 		
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="/main.css">
         
 		<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">

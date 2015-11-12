@@ -1,12 +1,9 @@
 
 /* main menu */
-svg.logo {
-	max-height: inherit;
-
-	width: 100px;
-	height: inherit;
-	
-
+a.logo-link {
+	width: 100px ;
+}
+.logo-svg {
 	vertical-align: middle;
 
 	path, 
@@ -14,16 +11,6 @@ svg.logo {
 		stroke: white;
 		fill  : white;
   	}
-
-  // 	nav.fixed &,
-  // 	nav > .nav-open & {
-  // 		path,
-	 // 	polygon {
-		// 	stroke: $bg-dark;
-		// 	fill  : $bg-dark;
-		// }
-  // 	}
-
 
 	.-small & {
 		max-height: 100%;
@@ -57,12 +44,10 @@ svg.logo {
 
 
 /* footer */
-footer {
-	svg.logo {
+.footer {
+	.logo-svg {
 		position: relative;
 		top: -20px;
-		width: 100px;
-		height: 45px;
 	}
 	@media (max-width: 768px) {
 		.row > * {

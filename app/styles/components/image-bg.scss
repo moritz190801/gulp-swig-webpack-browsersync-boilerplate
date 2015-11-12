@@ -12,3 +12,13 @@
 	    height: 400px;
 	}
 }
+.background-image-holder {
+	.-small & {
+		background-position: 50% 100% !important;
+	}
+}
+
+.lt-ie10 .background-image-holder {
+	height: 100%;
+	top: 0;
+}

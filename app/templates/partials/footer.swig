@@ -1,8 +1,8 @@
-<footer class="footer-2 bg-dark">
+<footer class="footer bg-dark">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-3 logo">
-				<a href="/">{% include '../partials/KERALOCK-Logo.svg' %}</a>
+				<a href="/" class="logo-link">{% include '../partials/logo.svg' %}</a>
 			</div>
 			<div class="col-sm-6 text-center">
 				

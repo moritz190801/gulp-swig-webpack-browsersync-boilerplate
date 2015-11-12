@@ -3,8 +3,8 @@
     <nav class="absolute transparent bg-dark">
         <div class="nav-bar">
             <div class="module left">
-                <a href="/index.html">
-                    {% include '../partials/KERALOCK-Logo.svg' %}
+                <a href="/index.html" class="logo-link">
+                    {% include '../partials/logo.svg' %}
                 </a>
             </div>
             <div class="module widget-handle mobile-toggle right visible-sm visible-xs">

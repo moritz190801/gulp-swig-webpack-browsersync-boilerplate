@@ -9,32 +9,35 @@
 ) %}
 <section class="image-square -image-square-effect {{side}}">
     <div class="col-md-6 image">
-        <div class="img_hover srcset">
+
+        <div class="img_hover center-vertical">
             <img alt="{{headline|safe}}"  src="{{scr_hover}}" >
-           {#  <img
-                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                data-srcset="
-                    {{ scr_hover }};320w 320w,
-                    {{ scr_hover }};400w 400w,
-                    {{ scr_hover }};500w 500w," 
-                data-sizes="20vw"
-                class="lazyload"
-                alt="{{headline|safe}}"> #}
         </div>
-        <div class="background-image-holder srcset">
-            {# <img alt="image" class="background-image" src="{{src_bg}};600w" /> #}
-            <img
-                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                data-srcset="
-                    {{ src_bg }};320w 320w,
-                    {{ src_bg }};600w 600w,
-                    {{ src_bg }};800w 800w,
-                    {{ src_bg }};1000w 1000w" 
-                data-sizes="(max-width: 990px) 100vw, 50vw"
-                class="lazyload"
-                alt="">
-            
-        </div>
+
+        <div class="background-image-holder srcset" data-image-url="{{ src_bg }}">
+            <style scoped>
+                [data-image-url="{{ src_bg }}"]{ background-image:url({{ src_bg }};320w) }
+
+                @media (min-width:320px){
+                    [data-image-url="{{ src_bg }}"]{ background-image:url({{ src_bg }};400w) }
+                }
+                @media (min-width:400px){
+                    [data-image-url="{{ src_bg }}"]{ background-image:url({{ src_bg }};600w) }
+                }
+                @media (min-width:600px){
+                    [data-image-url="{{ src_bg }}"]{ background-image:url({{ src_bg }};900w) }
+                }
+                @media (min-width:991px){
+                    [data-image-url="{{ src_bg }}"]{ background-image:url({{ src_bg }};600w) }
+                }
+                @media (min-width:1200px){
+                    [data-image-url="{{ src_bg }}"]{ background-image:url({{ src_bg }};800w) }
+                }
+                @media (min-width:1600px){
+                    [data-image-url="{{ src_bg }}"]{ background-image:url({{ src_bg }};1000w) }
+                }
+            </style>          
+        </div>   
     </div>
     <div class="col-md-6 content overflow-hidden">
         <div>
@@ -47,4 +50,6 @@
         </div>
     </div>
 </section>
+
+
 {% endmacro %}
