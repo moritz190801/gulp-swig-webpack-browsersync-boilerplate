@@ -10,8 +10,8 @@
 <section class="image-square -image-square-effect {{side}}">
     <div class="col-md-6 image">
 
-        <div class="img_hover center-vertical">
-            <img alt="{{headline|safe}}"  src="{{scr_hover}}" >
+        <div class="img_hover center-transform">
+            <img alt="{{headline|safe}}"  src="{{scr_hover}};320w" >
         </div>
 
         <div class="background-image-holder srcset" data-image-url="{{ src_bg }}">
