@@ -29,7 +29,7 @@
     'Erhältlich in den Farben: <br>'+
     'Blond / Mittelbraun / Dunkelbraun / Schwarz / Rot',
     'left',
-    'assets_build/NIGHT-LIFE/KL-NIGHT-L3-01-colour-hairsprays.jpg',
+    'assets_build/NIGHT-LIFE/KL-NIGHT-L3-03-trockenshampoos.jpg',
     'assets_build/NIGHT-LIFE/KL-Packshots-NL-blond.jpg',
     button_url,
     'Bestellen'
@@ -126,7 +126,7 @@
     'color hairsprays',
     'Feine Strähnchen, kräftige Blocksträhnen und farbige Haarspitzen: <br> Mit den auswaschbaren anwendbaren KERALOCK NIGHT LIFE color hairsprays ist alles möglich. Einfach Strähne abteilen, Farbe aufsprühen – fertig. Satte Farbpigmente und perfekter Haarspray-Halt! Erhältlich in den Farben: <br> purple | green | red | blue | pink | blonde',
     'right',
-    'assets_build/NIGHT-LIFE/KL-NIGHT-L3-02-crazy-curl.jpg',
+    'assets_build/NIGHT-LIFE/KL-NIGHT-L3-01-colour-hairsprays.jpg',
     'assets_build/NIGHT-LIFE/KL-Packshots-NL-colorhairsprays.jpg',
     button_url,
     'Bestellen'
