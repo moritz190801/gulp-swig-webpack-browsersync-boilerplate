@@ -27,13 +27,21 @@
 
 {# category(img, h2, p, href, hrefText) #}
 {{ category(
-    './assets_build/INSPIRATION/KL-INSPIRATION-02-Haarfarben.jpg',
+    './assets_build/INSPIRATION/KL-INSPIRATION-01-Farben.jpg',
     'Haarfarbe',
     'Intensive, langanhaltende und leuchtende Farben in 12 aufregenden Nuancen.',
     'inspiration/Haarfarben.html',
     'Produkte'
 ) }}
 
+
+{{ category(
+    './assets_build/INSPIRATION/KL-INSPIRATION-02-Haarfarben.jpg',
+    'Tönungsshampoos',
+    'A brief description.',
+    'inspiration/_detailseite.html',
+    'Produkte'
+) }}
 
 {{ category(
     './assets_build/INSPIRATION/KL-INSPIRATION-03-Blondierungen.jpg',
@@ -44,20 +52,14 @@
 ) }}
 
 {{ category(
-    './assets_build/INSPIRATION/KL-INSPIRATION-05-Entferner.jpg',
+    './assets_build/INSPIRATION/KL-INSPIRATION-04-Toenung.jpg',
     'Haarfarb-Entferner',
     'Haarfarbe von Hals, Gesicht und Händen ganz einfach und problemlos entfernen.',
     'inspiration/_detailseite.html',
     'Produkte'
 ) }}
 
-{{ category(
-    './assets_build/INSPIRATION/KL-INSPIRATION-04-Toenung.jpg',
-    'Tönungsshampoos',
-    'A brief description.',
-    'inspiration/_detailseite.html',
-    'Produkte'
-) }}
+
 
 
 
