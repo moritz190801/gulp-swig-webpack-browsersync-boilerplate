@@ -118,12 +118,14 @@ $menuAnimationDelta: 0;
     .cursor {
         .fine,
         .large {
-            transition: all $menuAnimationSpeed ease-in;
+            will-change: transform, opacity;
         }
         .fine {
+
             width: 100%;
             opacity: 1;
             transform: translate(100%,0);
+            transition: all $menuAnimationSpeed ease-out;
 
             .js-loaded & {
                 transform: translate(-80%,0);
@@ -133,6 +135,8 @@ $menuAnimationDelta: 0;
         .large {
             opacity: 0;
             transform: translate(100%,0);
+            transition: all $menuAnimationSpeed ease-in;
+
             .js-loaded & {
                 transform: translate(0,0);
                 opacity: 1;
