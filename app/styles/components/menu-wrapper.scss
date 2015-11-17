@@ -118,7 +118,7 @@ $menuAnimationDelta: 0;
     .cursor {
         .fine,
         .large {
-            transition: all $menuAnimationSpeed ease-out;
+            transition: all $menuAnimationSpeed ease-in;
         }
         .fine {
             width: 100%;
