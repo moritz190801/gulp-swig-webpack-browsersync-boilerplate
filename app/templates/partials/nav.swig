@@ -26,6 +26,11 @@
                                 </li>
                                 <li>
                                     <a href="/inspiration/Blondierungen.html">
+                                        Tönungsshampoos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/inspiration/Blondierungen.html">
                                         Blondierungen
                                     </a>
                                 </li>
@@ -33,11 +38,7 @@
                                     <a href="/inspiration/Blondierungen.html">
                                         Haarfarb-Entferner
                                     </a>
-                                <li>
-                                    <a href="/inspiration/Blondierungen.html">
-                                        Tönungsshampoos
-                                    </a>
-                                </li>
+                                
                             </ul>
                         </li>
 

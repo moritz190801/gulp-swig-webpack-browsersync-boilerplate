@@ -11,7 +11,12 @@
     <div class="col-md-6 image">
 
         <div class="img_hover center-transform">
-            <img alt="{{headline|safe}}"  src="{{scr_hover}};320w" >
+            {# <img alt="{{headline|safe}}"  src="{{scr_hover}};320w" > #}
+            
+            <img srcset="{{scr_hover}};320w 320w, {{scr_hover}};500w 500w"
+                sizes="(max-width: 991px) 40vw, 20vw"
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                alt="{{headline|safe}}">
         </div>
 
         <div class="background-image-holder srcset" data-image-url="{{ src_bg }}">

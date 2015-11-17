@@ -97,7 +97,10 @@ $(document).ready(function() {
 
 
 
-
+	/*
+	 * js-loaded
+	 */
+	$('body').addClass('js-loaded')
 
 });
 

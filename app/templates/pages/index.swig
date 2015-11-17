@@ -116,30 +116,34 @@
 					<a href="/">{% include '../partials/logo_home.svg' %}</a>
 				</div>
 				<div class="item-nav" data-kat="inspiration">
-					<div class="center-wrapper sound-roll1">
+					<div class="center-wrapper">
 						<div class="link-wrapper">
 							<a href="inspiration.html" data-linkimg="competition">
-					            Haarfarben <br><span>INSPIRATION</span>		          	</a>
-				           <div class="cursor">
-				            	<div class="fine"></div>
-				            	<div class="large" style="visibility: visible; width: 27px; opacity: 1;"></div>
-				            </div> 
+					            <span class="line1">Haarfarben</span> <br>
+                                <span class="line2">INSPIRATION</span>
+    				            <div class="cursor">
+    				            	<div class="fine"></div>
+    				            	<div class="large"></div>
+    				            </div> 
+                            </a>
 			            </div>
 		             </div>
 		        </div>
 		        
 		       	<div class="item-nav" data-kat="deluxe">
 		        	<div class="center-wrapper">
-			        	<div class="link-wrapper sound-roll1">
+			        	<div class="link-wrapper">
 				        	<a href="deluxe.html">
-				        		Dauerwellen<br><span>DE LUXE</span></a>
-				            <div class="cursor">
-				            	<div class="fine" style="opacity: 0.3; transform: matrix(1, 0, 0, 1, 0, 0); width: 0%;"></div>
-				            	<div class="large" style="visibility: visible; width: 27px; opacity: 1;"></div>
-				            </div> 
+				        		<span class="line1">Dauerwellen</span><br>
+                                <span class="line2">DE LUXE</span>
+    				            <div class="cursor">
+    				            	<div class="fine"></div>
+    				            	<div class="large"></div>
+    				            </div> 
+                            </a>
 			            </div>            
 			            {# <ul class="submenu">		            	
-			             	<li class="sound-roll2">             	
+			             	<li class="">             	
 			             		<a href="http://www.pacorabanne.com/invictus/en-WW/#!/episodes">
 				             		<div class="link-text">
 					             		Last episode				             		<div class="link-hover-wrapper">
@@ -149,7 +153,7 @@
 				             		</div>	
 			             		</a>
 			             	</li>
-			             	<li class="sound-roll2">             	
+			             	<li class="">             	
 								<a class="all-episodes" href="http://www.pacorabanne.com/invictus/en-WW/#!/episodes">
 									<div class="link-text">
 										All the episodes										<div class="link-hover-wrapper">
@@ -171,14 +175,15 @@
 			             
 		        <div class="item-nav" data-kat="nightlife">
 		        	<div class="center-wrapper">
-			        	<div class="link-wrapper sound-roll1">
+			        	<div class="link-wrapper">
 				        	<a href="night-life.html">
-					            Color Hairsprays<br><span>NIGHT LIFE</span>		             
-					        </a>
-				           <div class="cursor">
-				            	<div class="fine"></div>
-				            	<div class="large" style="visibility: visible; width: 27px; opacity: 1;"></div>
-				            </div> 
+					            <span class="line1">Color Hairsprays</span><br>
+                                <span class="line2">NIGHT LIFE</span>		             
+    				            <div class="cursor">
+    				            	<div class="fine"></div>
+    				            	<div class="large"></div>
+    				            </div> 
+                            </a>
 			            </div>
 		             </div>
 		        </div>                    
@@ -186,14 +191,15 @@
 		        <div class="item-nav" data-kat="care">
 		        	        	
 		        	<div class="center-wrapper">
-			        	<div class="link-wrapper sound-roll1">
+			        	<div class="link-wrapper">
 				        	<a href="care.html">
-					            Foamshampoos<br><span>CARE</span>
-					        </a>
-				            <div class="cursor">
-				            	<div class="fine" style="opacity: 0.3; transform: matrix(1, 0, 0, 1, 0, 0); width: 0%;"></div>
-				            	<div class="large" style="visibility: visible; width: 27px; opacity: 1;"></div>
-				            </div> 
+					            <span class="line1">Foamshampoos</span><br>
+                                <span class="line2">CARE</span>
+    				            <div class="cursor">
+    				            	<div class="fine"></div>
+    				            	<div class="large"></div>
+    				            </div> 
+                            </a>
 			            </div>
 			          </div>
 		        </div>
