@@ -32,6 +32,9 @@
     top: 9px;
     left: 0;
     width: 100%;
+    .lt-ie10 & {
+        width: 27px;
+    }
     height: 3px;
     background-color: white;
     background: linear-gradient(to right,
@@ -123,6 +126,7 @@ $menuAnimationDelta: 0;
         .fine {
 
             width: 100%;
+
             opacity: 1;
             transform: translate(100%,0);
             transition: all $menuAnimationSpeed ease-out;
@@ -136,7 +140,7 @@ $menuAnimationDelta: 0;
             opacity: 0;
             transform: translate(100%,0);
             transition: all $menuAnimationSpeed ease-in;
-
+            
             .js-loaded & {
                 transform: translate(0,0);
                 opacity: 1;

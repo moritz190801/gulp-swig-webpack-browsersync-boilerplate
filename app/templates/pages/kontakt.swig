@@ -125,9 +125,9 @@
     </div>
     <div class="col-md-6 col-md-offset-1 content">
         <h4  class="uppercase">Konzept / Design / Umsetzung</h4>
-        Bürogemeinschaft für Grafikdesign, <a href="http://www.hotel-des-artistes.de/">Hôtel des Artistes</a><br>
-		Martin Schwenzer, <a href="https://derhaeuptling.com/">derhäuptling.com</a> <br>
-		Lisa Vrabec, <a href="http://www.birds-webdesign.de/">birds-webdesign.de</a>
+        Bürogemeinschaft für Grafikdesign, <a href="http://www.hotel-des-artistes.de/" target="_blank">Hôtel des Artistes</a><br>
+		Martin Schwenzer, <a href="https://derhaeuptling.com/" target="_blank">derhäuptling.com</a> <br>
+		Lisa Vrabec, <a href="http://lisavrabec.com/" target="_blank">lisavrabec.com </a>
     </div>
 </section>
 

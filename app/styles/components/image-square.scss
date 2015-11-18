@@ -1,5 +1,6 @@
 .-image-square-effect {
-	$transitionWidth: 20vw;
+	// $transitionWidth: 20vw;
+	$transitionWidth: 40%;
 
 	.image {
 		padding: 0;
@@ -107,13 +108,13 @@
 	&.left {
 		.img_hover {
 			right: 0;
-			transform: translate( $transitionWidth - 10vw,0) scale(.8);
+			transform: translate( 50%,0) scale(.8);
 		}
 	}
 	&.right {
 		.img_hover {
 			left: 0;
-			transform: translate(-$transitionWidth + 10vw,0) scale(.8);
+			transform: translate(-50%,0) scale(.8);
 		}
 	}
 	@media (max-width: 991px) {
