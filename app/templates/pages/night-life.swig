@@ -15,7 +15,7 @@
 {{header_products(
     'NIGHT LIFE',
     'color Trockenshampoos',
-    '/assets_build/header/KL-Keyvisual-NIGHT-L3.jpg',
+    '/assets_build/Header/KL-Keyvisual-NIGHT-L3.jpg',
     'height_small'
 )}}
 

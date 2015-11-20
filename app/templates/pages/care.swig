@@ -15,7 +15,7 @@
 {{header_products(
     'CARE',
     'Foamshampoos',
-    '/assets_build/header/KL-Keyvisual-CARE-L3.jpg',
+    '/assets_build/Header/KL-Keyvisual-CARE-L3.jpg',
     'height_small'
 )}}
 
