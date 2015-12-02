@@ -12,9 +12,10 @@
 <section class="cover image-bg fullscreen overlay bg-dark vid-bg pt-xs-120 -desktop">
     <div class="fs-vid-background">
         <video muted loop preload="auto" autoplay>
-            <source src="/assets/video/wave.webm" type="video/webm">
+            {# <source src="/assets/video/wave.webm" type="video/webm">
             <source src="/assets/video/wave.mp4" type="video/mp4">
-            <source src="/assets/video/wave.ogv" type="video/ogg">
+            <source src="/assets/video/wave.ogv" type="video/ogg"> #}
+            <source src="/assets/video/Sequenz_02.mp4" type="video/mp4">
         </video>
     </div>
     <div class="background-image-holder">
