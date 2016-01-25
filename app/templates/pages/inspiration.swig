@@ -39,7 +39,7 @@
     './assets_build/INSPIRATION/KL-INSPIRATION-02-Haarfarben.jpg',
     'Tönungsshampoos',
     'A brief description.',
-    'inspiration/_detailseite.html',
+    'inspiration/Toenungsshampoos.html',
     'Produkte'
 ) }}
 
@@ -47,7 +47,7 @@
     './assets_build/INSPIRATION/KL-INSPIRATION-03-Blondierungen.jpg',
     'Blondierungen',
     'A brief description.',
-    'inspiration/_detailseite.html',
+    'inspiration/Blondierungen.html',
     'Produkte'
 ) }}
 
@@ -55,7 +55,7 @@
     './assets_build/INSPIRATION/KL-INSPIRATION-04-Toenung.jpg',
     'Haarfarb-Entferner',
     'Haarfarbe von Hals, Gesicht und Händen ganz einfach und problemlos entfernen.',
-    'inspiration/_detailseite.html',
+    'inspiration/Haarfarb-Entferner.html',
     'Produkte'
 ) }}
 

@@ -7,7 +7,7 @@
 			<div class="col-sm-6 text-center">
 				
 				<ul class="list-inline">
-					<li><a href="haendler.html">Händler</a></li>
+					{# <li><a href="haendler.html">Händler</a></li> #}
 					
 					<li><a href="unternehmen.html">Unternehmen</a></li>
 					<li><a href="datenschutz.html">Datenschutz</a></li>

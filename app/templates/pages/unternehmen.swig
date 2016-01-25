@@ -158,7 +158,7 @@
 </section>
 
 
-<section>
+{# <section>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
@@ -216,7 +216,7 @@
         <!--end of row-->
     </div>
     <!--end of container-->
-</section>
+</section> #}
 
 
 {% include '../partials/mailchimp.swig' %}

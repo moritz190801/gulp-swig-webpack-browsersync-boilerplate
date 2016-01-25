@@ -50,8 +50,9 @@
             <p>
                 {{text|safe}}
             </p>
-            
-            <a class="btn btn-lg btn-dark  mt32 mb0" href="{# {{button_url}} #}/haendler.html">{# {{button_text|safe}} #}erhältlich bei</a>
+            <!--
+            <a class="btn btn-lg btn-dark  mt32 mb0" href="{# {{button_url}} #}/haendler.html"> {{button_text|safe}} erhältlich bei</a>
+            -->
         </div>
     </div>
 </section>

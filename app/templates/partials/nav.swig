@@ -25,7 +25,7 @@
 
                                 </li>
                                 <li>
-                                    <a href="/inspiration/Blondierungen.html">
+                                    <a href="/inspiration/Toenungsshampoos.html">
                                         Tönungsshampoos
                                     </a>
                                 </li>
@@ -35,7 +35,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/inspiration/Blondierungen.html">
+                                    <a href="/inspiration/Haarfarb-Entferner.html">
                                         Haarfarb-Entferner
                                     </a>
                                 
