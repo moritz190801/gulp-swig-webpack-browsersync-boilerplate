@@ -96,55 +96,66 @@ Goldblond #}
                 <ul class="accordion accordion-2 one-open">
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0">Kann ich mir nach einer Dauerwelle die Haare färben?</h4>
+                            <h4 class="inline-block mb0">Können die Blond-Produkte auch bei dunklem Haar angewendet werden?</h4>
                         </div>
                         <div class="content">
                             <p>
-                                Nach einer Dauerwellenbehandlung sollten Sie mindestens zwei Wochen warten, bevor Sie die Coloration anwenden. Das Farbergebnis könnte sonst ungewollt intensiver oder sogar ungleichmäßig ausfallen. Wir empfehlen bei dauergewelltem Haar, die Einwirkzeit generell um etwa 5 bis 10 Minuten zu verkürzen. 
+                                Die KERALOCK Blond-Produkte eignen sich für die Ausgangshaarfarben Hellblond bis Mittelbraun. Bei der Strähnchen-Blondierung empfehlen wir keine Anwendung für die Ausgangshaarfarben Hellblond sowie Dunkelbraun bis Schwarz oder bei stark ergrautem Haar. Bei unserem Superaufheller empfehlen wir keine Anwendung bei ergrautem Haar mit einem Grauanteil von mehr als 30% sowie bei Haaren, die bereits mit roten oder dunklen Nuancen coloriert sind.
 
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0">Welche Wickler eigenen sich am besten?</h4>
+                            <h4 class="inline-block mb0">Wie oft kann ich mir das Haar blondieren?</h4>
                         </div>
                         <div class="content">
                             <p>
-                                Verwenden Sie nur metallfreie Kunststoff-Dauerwellwickler. Die Größe der Wickler entscheidet über die Wellwirkung und Lockengröße. 
+                                Auch wenn unsere Blond-Produkte milde Wirkstoffe enthalten, so greift jede Blondierung dennoch in die natürliche Struktur des Haares ein. Zwischen den Behandlungen sollten Sie daher mindestens 14 Tage warten. Bei der Verwendung des blond boosters empfehlen wir, die Behandlung alle 4-6 Wochen zu wiederholen, da die Haare in einem Monat in der Regel einen Zentimeter nachwachsen.
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0">Wie lange darf ich den Wirkstoff einwirken lassen?</h4>
+                            <h4 class="inline-block mb0">Ich denke über eine Dauerwelle nach. Muss ich dabei etwas beachten?</h4>
                         </div>
                         <div class="content">
                             <p>
-                                Maximal 20 Minuten. Die maximale Einwirkzeit sollten Sie nicht überschreiten, gleichgültig wie sich das Wellergebnis darstellt. Am bestem man überprüft die Einwirkung nach etwa 10 Minuten an einer Probesträhne. 
+                                Unmittelbar vor oder nach der Aufhellung sollte keine Dauerwelle vorgenommen werden. Die Haarstruktur braucht erstmal eine kleine Pause – und viel Pflege.
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0">Wie kann ich meine Haut vor Irritationen schützen?</h4>
+                            <h4 class="inline-block mb0">Gibt es bei der Keralock Strähnchenblondierung eine andere Einwirkzeit bei grauem Haar? Kann ich das Produkt auch bei ergrautem Haar anwenden?</h4>
                         </div>
                         <div class="content">
                             <p>
-                                Wir empfehlen, die Haut rund um den Haaransatz einzucremen und zusätzlich mit einem Wattestreifen zu schützen.
+                                Wir können eine Anwendung bei stark ergrautem Haar nicht empfehlen, da eine Blondierung bestehende Haarpigmente bleicht, die in einem grauen / weißen Haar schon nicht mehr vorhanden sind. Eine Anwendung macht somit auch keinen Sinn. 
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0">Wie lange hält die Dauerwelle?</h4>
+                            <h4 class="inline-block mb0">Wie bekomme ich die Art der Strähnchen, die ich mir wünsche?</h4>
                         </div>
                         <div class="content">
                             <p>
-                                Je nach Haarstruktur etwa 10 bis 12 Wochen.
+                                Für besonders feine und gleichmäßige Strähnchen ist die Strähnchenhaube bestens geeignet. Für helle Strähnchen mit intensiven Lichteffekten empfehlen wir die Kammtechnik und für breite Blocksträhnen und kontrastreiche Farbreflexe die Pinseltechnik.
                             </p>
                         </div>
                     </li>
+                    <li>
+                        <div class="title">
+                            <h4 class="inline-block mb0">Wann sollte ich keine Blondierung vornehmen?</h4>
+                        </div>
+                        <div class="content">
+                            <p>
+                                Bei dauergewelltem oder chemisch geglättetem Haar, bei mit Henna oder Metallsalzen gefärbtem Haar, bei ergrautem Haar mit einem Grauanteil von mehr als 30 %, bei Hautunverträglichkeiten und bei empfindlicher, entzündeter oder verletzter Kopfhaut.
+                            </p>
+                        </div>
+                    </li>
+                    
                 </ul>
                 <!--end of accordion-->
             </div>
