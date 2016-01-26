@@ -25,8 +25,8 @@
 
                                 </li>
                                 <li>
-                                    <a href="/inspiration/Toenungsshampoos.html">
-                                        Tönungsshampoos
+                                    <a href="/inspiration/Farbschutzschampoos.html">
+                                        Farbschutzschampoos
                                     </a>
                                 </li>
                                 <li>

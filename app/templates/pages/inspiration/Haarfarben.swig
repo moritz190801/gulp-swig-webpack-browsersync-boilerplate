@@ -11,7 +11,7 @@
 {{header_products(
     'INSPIRATION',
     'Haarfarben',
-    '/assets/img/fitness3.jpg',
+    '../assets_build/Header/KL-Keyvisual-INSPIRATION-L3.jpg',
     'height_small'
 )}}
 
@@ -21,14 +21,26 @@
 
 {{product(
     'COLOR CREME',
-    '<b>Dauerhaft colorieren und schonend abdecken</b> <br>Sie suchen eine anhaltende, intensiv leuchtende Farbe? Dann wird die KERALOCK COLOR CREME Ihnen gefallen. Hochwertiges Jojobaöl, Weizenprotein, Provitamin B5 und Keratin stärken die Haarstruktur und sorgen für ein brillantes Ergebnis. Acht unterschiedliche Haarfarben bieten den passenden Look für jeden Typ:',
+    '<b>Dauerhaft colorieren und schonend abdecken</b> <br>Sie suchen eine anhaltende, intensiv leuchtende Farbe? Dann wird die KERALOCK COLOR CREME Ihnen gefallen. Hochwertiges Jojobaöl, Weizenprotein, Provitamin B5 und Keratin stärken die Haarstruktur und sorgen für ein brillantes Ergebnis. <br>12 unterschiedliche Haarfarben bieten den passenden Look für jeden Typ.',
     'left',
-    '/assets_build/DELUXE/KL-DELUXE-L3-01-sensitiv-DW.jpg',
+    '../assets_build/INSPIRATION/KL-INSPIRATION-L3-03.jpg',
     '../assets_build/INSPIRATION/Haarfarben/KL-Packshots-Toenung-85.jpg',
     button_url,
     'Bestellen'
 ) }}
-
+{# Goldblond
+Schwarz
+Schokobraun
+Haselnuss
+Hellblond
+Rotbraun
+Mahagoni
+Schwarze Kirsche
+Mittelblond
+Dunkelbraun
+Platinblond
+Granatrot
+Goldblond #}
 
 
 
@@ -38,24 +50,23 @@
         <div class="row">
             <div class="col-sm-6">
                 <h2 class="uppercase bold italic">Einfache Anwendung</h2>
-                <p class="lead">Die KERALOCK Dauerwellen sind speziell für die einfache Anwendung zu Hause konzipiert – ganz ohne Friseur. </p>
+                <p class="lead">Die KERALOCK Creme Colorationen sind speziell für die einfache Anwendung zu Hause konzipiert – ganz ohne Friseur.</p>
                 
                 
-                <ol>
-                    <li>Haare feucht auf Wickler drehen.</li>
-                    <li>Well-Lotion auftragen und einwirken lassen.</li>
-                    <li>Mit Wasser abspülen und Fixierung weitere 10 Minuten einwirken lassen. <br>
-                    Abdrehen, auswaschen – fertig</li>
+                <ol class="lead">
+                    <li>Farbmischung au das trockene Haar auftragen.</li>
+                    <li>20 bis 30 Minuten einwirken lassen.</li>
+                    <li>Ausspülen und mit der Glanz- Kurspülung pflegen.</li>
                 </ol>
 
             </div>
 
             <div class="col-sm-6">
                 <h2 class="uppercase bold italic">Ergebnis</h2>
-                <p class="lead">Geschontes Haar mit natürlichem Glanz, elastisch und leicht kämmbar. Freuen Sie sich auf mehr Volumen, Vitalität und Spannkraft für Ihre Frisur.</p>
+                <p class="lead">Geschontes Haar mit natürlichem Glanz, elastisch und leicht kämmbar. Freuen Sie sich auf Ihre neuen Glanzmomente mit einer trendigen Haarfarbe von Keralock.</p>
 
                 <h2 class="uppercase bold italic">Tipp</h2>
-                <p class="lead">Waschen Sie Ihr Haar vor einer Dauerwelle einige Male mit einen Shampoo zur Tiefenreinigung, um die Haarstruktur vollständig von Pflegerückständen zu befreien.</p>
+                <p class="lead">Waschen Sie Ihr Haar vor einer Coloration einige Male mit einen Shampoo zur Tiefenreinigung, um die Haarstruktur vollständig von Pflegerückständen zu befreien.</p>
             </div>
         </div>
     </div>

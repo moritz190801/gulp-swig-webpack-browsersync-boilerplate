@@ -9,7 +9,7 @@
 {% block content %}
 <section class="image-bg overlay pt180 pb180 pt-xs-140 pb-xs-140">
     <div class="background-image-holder">
-        <img alt="image" class="background-image" src="/assets/img/fitness3.jpg" />
+        <img alt="image" class="background-image" src="./assets_build/Header/KL-Keyvisual-INSPIRATION-L3.jpg" />
     </div>
     <div class="container">
         <div class="row">
@@ -37,16 +37,16 @@
 
 {{ category(
     './assets_build/INSPIRATION/KL-INSPIRATION-02-Haarfarben.jpg',
-    'Tönungsshampoos',
-    'A brief description.',
-    'inspiration/Toenungsshampoos.html',
+    'Farbschutzschampoos',
+    'Intensive Farbreflexe in aufregenden Nuancen ',
+    'inspiration/Farbschutzschampoos.html',
     'Produkte'
 ) }}
 
 {{ category(
     './assets_build/INSPIRATION/KL-INSPIRATION-03-Blondierungen.jpg',
     'Blondierungen',
-    'A brief description.',
+    'Lebendiges Blond & lang anhaltende Leuchtkraft ',
     'inspiration/Blondierungen.html',
     'Produkte'
 ) }}

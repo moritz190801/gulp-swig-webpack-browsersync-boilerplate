@@ -12,12 +12,28 @@
 {% block content %}
 
 
-{{header_products(
+{# {{header_products(
     'Unternehmen',
     'Traditionsmarke seit 1969',
     '/assets/img/fitness3.jpg',
     'height_small'
-)}}
+)}} #}
+
+<section class="image-bg overlay pt180 pb180 pt-xs-140 pb-xs-140">
+    <div class="background-image-holder">
+        <img alt="image" class="background-image" src="/assets/img/fitness3.jpg" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h6 class="uppercase mb0">Traditionsmarke seit 1969</h6>
+                <h1>Unternehmen</h1>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
 
 {# <section class="image-bg overlay pt180 pb180 pt-xs-140 pb-xs-140">
     <div class="background-image-holder">
@@ -76,17 +92,17 @@
                         <li>
                             <p class="lead">KERALOCK bietet professionelles Haarstyling <br>in Premiumqualität zu einem fairen Preis.</p>
                             <div class="quote-author">
-                                <img alt="Avatar" src="/assets/img/avatar_petra_feldmeier.jpg" />
-                                <h6 class="uppercase">Petra Feldmeier</h6>
-                                <span>Brand & Marketing Manager</span>
+                                <img alt="Avatar" src="/assets/img/avatar2.png" />
+                                <h6 class="uppercase">Tino Friedel</h6>
+                                <span>Head of Sales Brands</span>
                             </div>
                         </li>
                         <li>
                             <p class="lead">KERALOCK bietet professionelles Haarstyling <br>in Premiumqualität zu einem fairen Preis.</p>
                             <div class="quote-author">
-                                <img alt="Avatar" src="/assets/img/avatar_petra_feldmeier.jpg" />
-                                <h6 class="uppercase">Petra Feldmeier</h6>
-                                <span>Brand & Marketing Manager</span>
+                                <img alt="Avatar" src="/assets/img/avatar2.png" />
+                                <h6 class="uppercase">Tino Friedel</h6>
+                                <span>Head of Sales Brands</span>
                             </div>
                         </li>
                        {#  <li>

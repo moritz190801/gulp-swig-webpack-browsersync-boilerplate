@@ -15,7 +15,7 @@
 {{header_products(
     'NIGHT LIFE',
     'color Trockenshampoos',
-    '/assets_build/Header/KL-Keyvisual-NIGHT-L3.jpg',
+    './assets_build/Header/KL-Keyvisual-NIGHT-L3.jpg',
     'height_small'
 )}}
 
@@ -26,8 +26,7 @@
 {{product(
     'Color <br>Trockenshampoo',
     'Frisch gepflegte Haar ganz ohne Waschen und weniger Farbrückstände. Für ein sauberes Haargefühl in Sekundenschnelle!<br> <br> '+
-    'Erhältlich in den Farben: <br>'+
-    'Blond / Mittelbraun / Dunkelbraun / Schwarz / Rot',
+    '<!-- Blond / Mittelbraun / Dunkelbraun / Schwarz / Rot -->',
     'left',
     'assets_build/NIGHT-LIFE/KL-NIGHT-L3-03-trockenshampoos.jpg',
     'assets_build/NIGHT-LIFE/KL-Packshots-NL-blond.jpg',
@@ -124,7 +123,7 @@
 
 {{product(
     'color hairsprays',
-    'Feine Strähnchen, kräftige Blocksträhnen und farbige Haarspitzen: <br> Mit den auswaschbaren anwendbaren KERALOCK NIGHT LIFE color hairsprays ist alles möglich. Einfach Strähne abteilen, Farbe aufsprühen – fertig. Satte Farbpigmente und perfekter Haarspray-Halt! Erhältlich in den Farben: <br> purple | green | red | blue | pink | blonde',
+    'Feine Strähnchen, kräftige Blocksträhnen und farbige Haarspitzen: <br> Mit den auswaschbaren anwendbaren KERALOCK NIGHT LIFE color hairsprays ist alles möglich. Einfach Strähne abteilen, Farbe aufsprühen – fertig. Satte Farbpigmente und perfekter Haarspray-Halt!<!--Erhältlich in den Farben: <br> purple | green | red | blue | pink | blonde-->',
     'right',
     'assets_build/NIGHT-LIFE/KL-NIGHT-L3-01-colour-hairsprays.jpg',
     'assets_build/NIGHT-LIFE/KL-Packshots-NL-colorhairsprays.jpg',

@@ -11,7 +11,7 @@
 {{header_products(
     'INSPIRATION',
     'Haarfarb-Entferner',
-    '/assets/img/fitness3.jpg',
+    '../assets_build/Header/KL-Keyvisual-INSPIRATION-L3.jpg',
     'height_small'
 )}}
 
@@ -23,7 +23,7 @@
     'Reinigungstücher für die Haut',
     '<b>Farbrückstände auf der Haut einfach und schnell entfernen</b> <br>Mit den Reinigungstüchern KERALOCK Haarfarb-Entferner lässt sich getropfte oder verschmierte Haarfarbe von Hals, Gesicht und Händen wegwischen.',
     'left',
-    '/assets_build/DELUXE/KL-DELUXE-L3-01-sensitiv-DW.jpg',
+    '../assets_build/INSPIRATION/KL-INSPIRATION-L3-05.jpg',
     '../assets_build/INSPIRATION/Haarfarbentferner/KL-Packshots-Harrfarbentferner.jpg',
     button_url,
     'Bestellen'

@@ -9,9 +9,9 @@
 				<ul class="list-inline">
 					{# <li><a href="haendler.html">Händler</a></li> #}
 					
-					<li><a href="unternehmen.html">Unternehmen</a></li>
-					<li><a href="datenschutz.html">Datenschutz</a></li>
-					<li><a href="kontakt.html">Kontakt</a></li>
+					<li><a href="/unternehmen.html">Unternehmen</a></li>
+					<li><a href="/datenschutz.html">Datenschutz</a></li>
+					<li><a href="/kontakt.html">Kontakt</a></li>
 					{# <li><a href="impressum.html">Impressum</a></li> #}
 				</ul>
 			</div>

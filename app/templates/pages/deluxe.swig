@@ -11,7 +11,7 @@
 {{header_products(
     'DE LUXE',
     'Dauerwellen',
-    '/assets_build/Header/KL-Keyvisual-DELUXE-L3.jpg',
+    './assets_build/Header/KL-Keyvisual-DELUXE-L3.jpg',
     'height_small'
 )}}
 
@@ -76,7 +76,7 @@
                 <p class="lead">Die KERALOCK Dauerwellen sind speziell für die einfache Anwendung zu Hause konzipiert – ganz ohne Friseur. </p>
                 
                 
-                <ol>
+                <ol class="lead">
                     <li>Haare feucht auf Wickler drehen.</li>
                     <li>Well-Lotion auftragen und einwirken lassen.</li>
                     <li>Mit Wasser abspülen und Fixierung weitere 10 Minuten einwirken lassen. <br>

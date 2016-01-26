@@ -11,7 +11,7 @@
 {{header_products(
     'INSPIRATION',
     'Blondierungen',
-    '/assets/img/fitness3.jpg',
+    '../assets_build/Header/KL-Keyvisual-INSPIRATION-L3.jpg',
     'height_small'
 )}}
 
@@ -23,7 +23,7 @@
     'blond booster',
     '<b>Superaufheller für ein helles, lebendiges Blond</b> <br>Intensive Aufhellung Ihrer natürlichen Haarfarbe voller Leuchtkraft und strahlendem Glanz: Hochwertiges Jojobaöl und Keratin stärken die Haarstruktur bereits während der Behandlung. Mild und einfach in der Anwendung ist der KERALOCK blond booster für die Aufhellung des Haares um 2 bis 4 Nuancen geeignet. Ihr Haar erhält zusätzliche Pflege durch die beiliegende Glanz-Kurspülung mit Weizenprotein und Provitamin B5.',
     'left',
-    '/assets_build/DELUXE/KL-DELUXE-L3-01-sensitiv-DW.jpg',
+    '../assets_build/INSPIRATION/KL-INSPIRATION-L3-04.jpg',
     '../assets_build/INSPIRATION/Blondierungen/KL-Packshots-blond-booster.jpg',
     button_url,
     'Bestellen'
@@ -41,7 +41,7 @@
                 <p class="lead">Das Farbergebnis hängt von der Einwirkzeit und der Ausgangsfarbe ab.</p>
                 
                 
-                <ul>
+                <ul class="lead">
                     <li>Hellblond  &#8594; Ultrahellblond</li>
                     <li>Mittelblond &#8594; Hellblond</li>
                     <li>Dunkelblond &#8594; Blond</li>
@@ -54,7 +54,7 @@
 
             <div class="col-sm-6">
                 <h2 class="uppercase bold italic">Tipp</h2>
-                <p class="lead">Waschen Sie Ihr Haar vor einer Dauerwelle einige Male mit einen Shampoo zur Tiefenreinigung, um die Haarstruktur vollständig von Pflegerückständen zu befreien.</p>
+                <p class="lead">Waschen Sie Ihr Haar vor einer Coloration einige Male mit einen Shampoo zur Tiefenreinigung, um die Haarstruktur vollständig von Pflegerückständen zu befreien.</p>
 
                 
 
@@ -75,7 +75,7 @@
     'blond highlights',
     '<b>Strähnchen-Blondierung mit lang anhaltender Leuchtkraft</b> <br>Effektvolle Highlights in Ihrem Haar durch helle, gleichmäßige Strähnchen voller Leuchtkraft und Glanz: Einfach und schnell in der Anwendung ist die Strähnchen-Blondierung KERALOCK blond highlights für feine Akzente genauso geeignet wie für Blocksträhnen. Die beiliegende Kurspülung regeneriert das Haar mit wertvollem Weizenprotein und Provitamin B5. Ihr Haar wird geschmeidig, ist leicht kämmbar und erhält einen seidigen Glanz.',
     'right',
-    '/assets_build/DELUXE/KL-DELUXE-L3-01-sensitiv-DW.jpg',
+    '../assets_build/INSPIRATION/KL-INSPIRATION-L3-01.jpg',
     '../assets_build/INSPIRATION/Blondierungen/KL-Packshots-blond-highlights.jpg',
     button_url,
     'Bestellen'
