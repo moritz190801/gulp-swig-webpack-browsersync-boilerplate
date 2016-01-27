@@ -31,7 +31,7 @@
 <section class="image-square left">
     <div class="col-md-6 image">
         <div class="background-image-holder">
-            <img alt="image" class="background-image" src="/assets_build/YOB-Kontaktbild-03.jpg" />
+            <img alt="image" class="background-image" src="/assets_build/KONTAKT/YOB-Kontaktbild.jpg" />
         </div>
     </div>
     <div class="col-md-6 col-md-offset-1 content">
@@ -120,7 +120,7 @@
 <section class="image-square left">
     <div class="col-md-6 image">
         <div class="background-image-holder">
-            <img alt="image" class="background-image" src="/assets_build/Kontakt-HdA.jpg" />
+            <img alt="image" class="background-image" src="/assets_build/KONTAKT/HDA-Kontakt.jpg" />
         </div>
     </div>
     <div class="col-md-6 col-md-offset-1 content">
