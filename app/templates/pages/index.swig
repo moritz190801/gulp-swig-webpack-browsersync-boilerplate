@@ -15,7 +15,7 @@
             {# <source src="/assets/video/wave.webm" type="video/webm">
             <source src="/assets/video/wave.mp4" type="video/mp4">
             <source src="/assets/video/wave.ogv" type="video/ogg"> #}
-            <source src="/assets/video/Sequenz_02.mp4" type="video/mp4">
+            <source src="/assets/video/Sequenz_02.mp4" type="video/mp4" />
         </video>
     </div>
     <div class="background-image-holder">

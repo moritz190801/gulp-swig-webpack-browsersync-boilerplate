@@ -2,7 +2,7 @@
 
 {% set page = 'care' %}
 
-{% block pagetitle %} NIGHT LIFE // Keralock{% endblock %}
+{% block pagetitle %} CARE // Keralock{% endblock %}
 {% block description %}{% endblock %}
 
 {% block content %}

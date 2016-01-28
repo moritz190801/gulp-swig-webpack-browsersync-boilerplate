@@ -1,7 +1,7 @@
 {% extends "../layouts/default.swig" %}
 
 {% set page = 'datenschutz' %}
-{% block pagetitle %}Inspiration - Keralock{% endblock %}
+{% block pagetitle %}DATENSCHUTZ - Keralock{% endblock %}
 
 
 {% block nav %}

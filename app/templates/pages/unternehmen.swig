@@ -1,7 +1,7 @@
 {% extends "../layouts/default.swig" %}
 
 {% set page = 'unternehmen' %}
-{% block pagetitle %}Inspiration - Keralock{% endblock %}
+{% block pagetitle %}UNTERNEHMEN - Keralock{% endblock %}
 
 
 {% block nav %}

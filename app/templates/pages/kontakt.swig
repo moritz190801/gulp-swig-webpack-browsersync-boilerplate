@@ -1,7 +1,7 @@
 {% extends "../layouts/default.swig" %}
 
 {% set page = 'kontakt' %}
-{% block pagetitle %}Inspiration - Keralock{% endblock %}
+{% block pagetitle %}KONTAKT - Keralock{% endblock %}
 {% block description %}{% endblock %}
 
 {% block nav %}
