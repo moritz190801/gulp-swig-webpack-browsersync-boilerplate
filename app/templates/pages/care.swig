@@ -3,7 +3,8 @@
 {% set page = 'care' %}
 
 {% block pagetitle %} CARE // Keralock{% endblock %}
-{% block description %}{% endblock %}
+{% block description %}So manche Haarpflege kommt als Wundermittel daher – für alles und gegen alles: für mehr Volumen, weniger Schuppen, deutlich schönere Farben und und ...
+{% endblock %}
 
 {% block content %}
 

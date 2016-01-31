@@ -2,7 +2,7 @@
 
 {% set page = 'kontakt' %}
 {% block pagetitle %}KONTAKT - Keralock{% endblock %}
-{% block description %}{% endblock %}
+{% block description %}Sie haben Fragen zu unseren Produkten und deren Anwendung? Sie möchten wissen, wo Sie unsere Produkte erwerben können?{% endblock %}
 
 {% block nav %}
 	{# {% include '../partials/nav_offcanvas.html' %} #}

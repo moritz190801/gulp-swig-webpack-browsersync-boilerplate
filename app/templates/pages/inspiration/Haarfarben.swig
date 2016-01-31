@@ -3,7 +3,7 @@
 {% set page = 'Haarfarben' %}
 
 {% block pagetitle %}Haarfarben / INSPIRATION // Keralock{% endblock %}
-{% block description %}{% endblock %}
+{% block description %}Langanhaltende, pflegende Haarfarben - von schokobraun, über blauschwarz bis granatrot: finden Sie die passende KERALOCK Coloration.{% endblock %}
 
 {% block content %}
 

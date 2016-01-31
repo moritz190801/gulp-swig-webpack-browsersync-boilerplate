@@ -3,7 +3,7 @@
 {% set page = 'home' %}
 
 {% block pagetitle %}Keralock{% endblock %}
-{% block description %}{% endblock %}
+{% block description %}Von Haarfarben, über Blondierungen bis hin zu Dauerwellen - KERALOCK bietet für jeden Haartyp das passende, schonende Stylingprodukt.{% endblock %}
 
 {% block nav %}
 {% endblock %}

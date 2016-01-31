@@ -3,7 +3,7 @@
 {% set page = 'Haarfarb-Entferner' %}
 
 {% block pagetitle %}Haarfarb-Entferner / INSPIRATION // Keralock{% endblock %}
-{% block description %}{% endblock %}
+{% block description %}Farbrückstände auf der Haut einfach und schnell entfernen: Mit den Reinigungstüchern KERALOCK Haarfarb-Entferner.{% endblock %}
 
 {% block content %}
 

@@ -2,7 +2,7 @@
 
 {% set page = 'unternehmen' %}
 {% block pagetitle %}UNTERNEHMEN - Keralock{% endblock %}
-
+{% block description %}Weil Haarpflege Vertrauenssache ist. Wer sich perfekt gepflegte Haare wünscht, vertraut KERALOCK.{% endblock %}
 
 {% block nav %}
 	{# {% include '../partials/nav_offcanvas.html' %} #}

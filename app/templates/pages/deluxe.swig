@@ -3,7 +3,7 @@
 {% set page = 'deluxe' %}
 
 {% block pagetitle %} DE LUXE // Keralock{% endblock %}
-{% block description %}{% endblock %}
+{% block description %}Ein Strukturwechsel war nie einfacher: Mit den KERALOCK De Luxe Dauerwellen können Sie sich über Locken wie vom Friseur freuen.{% endblock %}
 
 {% block content %}
 

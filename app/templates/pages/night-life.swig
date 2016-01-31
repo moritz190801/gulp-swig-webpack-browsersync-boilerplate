@@ -3,7 +3,7 @@
 {% set page = 'night-life' %}
 
 {% block pagetitle %} NIGHT LIFE // Keralock{% endblock %}
-{% block description %}{% endblock %}
+{% block description %}Sanfte Haarpflege, partytaugliche Looks für spontane Stylisten: Farbsprays, wilde Locken oder glatte Haare - KERALOCK NIGHT LIFE.{% endblock %}
 
 {% block content %}
 

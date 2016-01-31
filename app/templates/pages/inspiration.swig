@@ -3,7 +3,7 @@
 {% set page = 'inspiration' %}
 
 {% block pagetitle %}INSPIRATION // Keralock{% endblock %}
-{% block description %}{% endblock %}
+{% block description %}Willkommen in der Welt der Farben: KERALOCK INSPIRATION. Nordisch blond, strahlend rot oder klassisch braun – welcher Typ sind Sie?{% endblock %}
 
 
 {% block content %}

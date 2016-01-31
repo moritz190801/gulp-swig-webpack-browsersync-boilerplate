@@ -3,7 +3,7 @@
 {% set page = 'Farbschutzschampoos' %}
 
 {% block pagetitle %}Farbschutzschampoos / INSPIRATION // Keralock{% endblock %}
-{% block description %}{% endblock %}
+{% block description %}Intensive Farbreflexe in sechs aufregenden Nuancen – mit der einfach anzuwendenden Tönungswäsche kann man sich immer wieder neu erfinden. {% endblock %}
 
 {% block content %}
 

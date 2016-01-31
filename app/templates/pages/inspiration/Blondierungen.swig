@@ -3,7 +3,7 @@
 {% set page = 'Blondierungen' %}
 
 {% block pagetitle %}Blondierungen / INSPIRATION // Keralock{% endblock %}
-{% block description %}{% endblock %}
+{% block description %}KERALOCK Blond-Produkte bieten optimale Haarschonung. Setzen Sie Akzente, blondieren Sie Strähnen oder hellen Sie Ihr Haar komplett auf.{% endblock %}
 
 {% block content %}
 
